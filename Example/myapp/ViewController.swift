@@ -12,10 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      add(a: Int, b: Int)
+      add()
     }
-    private func add(a:Int,b: Int) -> Int {
-        return a + b
+    private func add() {
+        return 10
     }
 
     override func didReceiveMemoryWarning() {

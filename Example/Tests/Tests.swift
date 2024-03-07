@@ -1,5 +1,6 @@
 import XCTest
-
+import UIKit
+import myapp
 class Tests: XCTestCase {
     
     override func setUp() {
